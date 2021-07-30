@@ -42,7 +42,10 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 	
 	- test display													✔
 	
-	- check horizontal winner	🛠
+	- check game in progress										✔
+	- check horizontal winner										🛠
+	
+	
 	
 					
 	
