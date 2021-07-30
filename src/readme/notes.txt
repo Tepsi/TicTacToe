@@ -1,0 +1,13 @@
+NOTES
+
+- LEGEND
+	🛠	- In progress
+	✔	- Done
+	🚧	- Blocked
+- PLANS
+
+1. Pomodoro
+	- create project	✔
+	- fill out notes	✔
+	- create an empty board	🛠	
+	- display an empty board

@@ -1,0 +1,6 @@
+TECH. DEBT
+
+- LEGEND
+	🛠	- In progress
+	✔	- Done
+	🚧	- Blocked
