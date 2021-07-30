@@ -37,8 +37,8 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 	
 	- after the second mark the board should have 1 O 				✔
 	- after the first mark the board should have 1 X				✔
-	- after the first mark the board should have 7 blanks			🛠
-	
+	- after the first mark the board should have 7 blanks			✔
+	- next player = X												🛠
 					
 	
 	

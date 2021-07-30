@@ -43,6 +43,7 @@ class TicTacToeTest {
  		assertEquals(1, countFields('O',board.getFields()), "After the second mark the board should have 1 O");
  		assertEquals(1, countFields('X',board.getFields()), "After the second mark the board should have 1 X");
  		assertEquals(7, countFields(' ',board.getFields()), "After the second mark the board should have 7 blanks");
+ 		assertEquals('X', board.getNextPlayer(), "Next player should be X");
 		
 	}
 
