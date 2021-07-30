@@ -9,5 +9,5 @@ NOTES
 1. Pomodoro
 	- create project	✔
 	- fill out notes	✔
-	- create an empty board	🛠	
+	- create an empty board		✔
 	- display an empty board

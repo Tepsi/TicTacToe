@@ -16,7 +16,7 @@ public class Board {
 	}
 	
 	public char getNextPlayer() {
-		return ' ';
+		return 'X';
 	}
 
 }
