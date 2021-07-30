@@ -15,13 +15,7 @@ class TicTacToeTest {
 	@DisplayName("Empty board creation")
 	void testEmpty() {
 		Board board = new Board();
-		int cntField = 0;
-		for (char field : board.getFields()) {
-			if (field == ' ') {
-				cntField++;
-			}
-		}
-		assertEquals(9, cntField, "An empty board should have 9 empty fields");
+		assertEquals(9, countFields(' ', board.getFields()), "An empty board should have 9 empty fields");
 		assertEquals('X', board.getNextPlayer(), "Player X should start the game");
 		assertEquals(
 				Arrays.asList("Game Board Creation…", " | | ", "-+-+-", " | | ", "-+-+-", " | | ", "", "Board Created.",
@@ -34,14 +28,18 @@ class TicTacToeTest {
 	void testFirstMark() {
 		Board board = new Board();
 		board.mark();
+ 		assertEquals(1, countFields('X',board.getFields()), "After the first mark the board should have 1 X");
+		
+	}
+	
+	private int countFields(char what, char[] fields) {
 		int cntField = 0;
-		for (char field : board.getFields()) {
-			if (field == 'X') {
+		for (char field : fields) {
+			if (field == what) {
 				cntField++;
 			}
 		}
-		assertEquals(1, cntField, "After the first mark the board should have 1 X");
-		
+		return cntField;
 	}
 
 	
