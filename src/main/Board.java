@@ -22,7 +22,7 @@ public class Board {
 	}
 	
 	public void mark() {
-		
+		fields[0] = 'X';
 	}
 	
 	public List<String> display() {
