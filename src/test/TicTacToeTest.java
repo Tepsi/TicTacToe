@@ -27,7 +27,22 @@ class TicTacToeTest {
 				Arrays.asList("Game Board Creation…", " | | ", "-+-+-", " | | ", "-+-+-", " | | ", "", "Board Created.",
 						"The game will start with player X"),
 				board.display(), "The empty board should be displayed with correct messages");
-
 	}
 
+	@Test
+	@DisplayName("1st mark on the board")
+	void testFirstMark() {
+		Board board = new Board();
+		board.mark();
+		int cntField = 0;
+		for (char field : board.getFields()) {
+			if (field == 'X') {
+				cntField++;
+			}
+		}
+		assertEquals(1, cntField, "After the first mark the board should have 1 X");
+		
+	}
+
+	
 }

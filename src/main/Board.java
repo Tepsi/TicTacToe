@@ -21,6 +21,10 @@ public class Board {
 		return 'X';
 	}
 	
+	public void mark() {
+		
+	}
+	
 	public List<String> display() {
 		ArrayList<String> messages = new ArrayList<>();
 		messages.add("Game Board Creation…");
