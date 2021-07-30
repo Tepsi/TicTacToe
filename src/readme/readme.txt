@@ -17,11 +17,13 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 	OO solution
 	BOARD
 		has	fields
+			nextPlayer
 			
 
 - BACKLOG
 	- create Board
 	
 - TEST CASES
-	- an empty board should have all fields empty	✔
+	- an empty board should have all fields empty		✔
+	- an empty board should have next player = X		🛠
 	

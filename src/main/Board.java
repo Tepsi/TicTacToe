@@ -14,5 +14,9 @@ public class Board {
 	public char[] getFields() {
 		return fields;
 	}
+	
+	public char getNextPlayer() {
+		return ' ';
+	}
 
 }
