@@ -5,4 +5,6 @@ TECH. DEBT
 	✔	- Done
 	🚧	- Blocked
 
-	
+
+Board.switchPlayer method
+
