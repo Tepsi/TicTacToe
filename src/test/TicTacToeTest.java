@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 
 import main.Board;
 
-
 class TicTacToeTest {
 
 	@Test
@@ -15,14 +14,13 @@ class TicTacToeTest {
 	void testEmpty() {
 		Board board = new Board();
 		int cntField = 0;
-		for (char field:board.getFields()) {
+		for (char field : board.getFields()) {
 			if (field == ' ') {
 				cntField++;
 			}
-		} 
+		}
 		assertEquals(9, cntField, "An empty board should have 9 empty fields");
 
 	}
-
 
 }
