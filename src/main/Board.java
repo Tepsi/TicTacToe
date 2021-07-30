@@ -18,6 +18,7 @@ public class Board {
 
 	public Board(char[] fields) {
 		this.fields = fields;
+		nextPlayer = 'X';
 	}
 
 	public char[] getFields() {
@@ -46,16 +47,36 @@ public class Board {
 
 	public List<String> display() {
 		ArrayList<String> messages = new ArrayList<>();
-		messages.add("Game Board Creation…");
-		messages.add(" | | ");
-		messages.add("-+-+-");
-		messages.add(" | | ");
-		messages.add("-+-+-");
-		messages.add(" | | ");
-		messages.add("");
-		messages.add("Board Created.");
-		messages.add("The game will start with player X");
+		if (isEmpty()) {
+			messages.add("Game Board Creation…");
+			messages.add(" | | ");
+			messages.add("-+-+-");
+			messages.add(" | | ");
+			messages.add("-+-+-");
+			messages.add(" | | ");
+			messages.add("");
+			messages.add("Board Created.");
+			messages.add("The game will start with player X");
+		} else {
+			messages.add("Player " + nextPlayer + ":");
+			messages.add(fields[0] + "|" + fields[1] + "|" + fields[2]);
+			messages.add("-+-+-");
+			messages.add(fields[3] + "|" + fields[4]+ "|" + fields[5]);
+			messages.add("-+-+-");
+			messages.add(fields[6] + "|" + fields[7] + "|" + fields[8]);
+			messages.add("");
+
+		}
 		return messages;
+	}
+	
+	private boolean isEmpty() {
+		for (char field:fields) {
+			if (field != ' ') {
+				return false;
+			}
+		}
+		return true;
 	}
 
 }
