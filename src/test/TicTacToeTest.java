@@ -32,6 +32,17 @@ class TicTacToeTest {
  		assertEquals(8, countFields(' ',board.getFields()), "After the first mark the board should have 8 blanks");
 		
 	}
+
+	@Test
+	@DisplayName("2nd mark on the board")
+	void testSecondMark() {
+		Board board = new Board();
+		board.mark();
+		board.mark();
+ 		assertEquals(1, countFields('O',board.getFields()), "After the second mark the board should have 1 O");
+		
+	}
+
 	
 	private int countFields(char what, char[] fields) {
 		int cntField = 0;
