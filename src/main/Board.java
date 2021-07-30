@@ -46,6 +46,11 @@ public class Board {
 	}
 	
 	public char checkWinner() {
+		for (int row = 0; row < 3; row++) {
+			if (fields[row*3] == fields[row*3+1] &&
+					fields[row * 3] == fields[row * 3 + 2])
+				return fields[row*3];
+		}
 		return ' ';
 	}
 
