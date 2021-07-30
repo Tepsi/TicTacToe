@@ -11,3 +11,8 @@ NOTES
 	- fill out notes	✔
 	- create an empty board		✔
 	- display an empty board
+	
+2. Pomodoro
+	- display an empty board
+	- create mark function
+	- display board with marks on it
