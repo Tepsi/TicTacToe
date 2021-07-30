@@ -44,6 +44,8 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 	
 	- check game in progress										✔
 	- check horizontal winner										✔
+	- check vertical winner											✔
+	
 	
 	
 	
