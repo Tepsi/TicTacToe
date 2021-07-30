@@ -21,3 +21,7 @@ NOTES
 	- create checks on 2nd and 3rd mark	✔
 	- display board with marks on it	✔
 	- create checkWinnner function		🛠
+	
+4. Pomodoro
+	- create checkWinnner function		🛠
+	- create a game to run 
