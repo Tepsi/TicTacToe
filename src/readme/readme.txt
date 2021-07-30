@@ -27,4 +27,6 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 - TEST CASES
 	- an empty board should have all fields empty		✔
 	- an empty board should have next player = X		✔
+	- empty board should be displayed properly			✔
+	
 	

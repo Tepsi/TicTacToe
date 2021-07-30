@@ -24,8 +24,8 @@ class TicTacToeTest {
 		assertEquals(9, cntField, "An empty board should have 9 empty fields");
 		assertEquals('X', board.getNextPlayer(), "Player X should start the game");
 		assertEquals(
-				Arrays.asList("Game Board Creation…", " | | ", "-+-+-", " | | ", "-+-+-",
-						" | | " + "" + "Board Created." + "The game will start with player X"),
+				Arrays.asList("Game Board Creation…", " | | ", "-+-+-", " | | ", "-+-+-", " | | ", "", "Board Created.",
+						"The game will start with player X"),
 				board.display(), "The empty board should be displayed with correct messages");
 
 	}

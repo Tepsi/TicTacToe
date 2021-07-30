@@ -23,8 +23,16 @@ public class Board {
 	
 	public List<String> display() {
 		ArrayList<String> messages = new ArrayList<>();
+		messages.add("Game Board Creation…");
+		messages.add(" | | ");
+		messages.add("-+-+-");
+		messages.add(" | | ");
+		messages.add("-+-+-");
+		messages.add(" | | ");
+		messages.add("");
+		messages.add("Board Created.");
+		messages.add("The game will start with player X");
 		return messages;
-		
 	}
 
 }
