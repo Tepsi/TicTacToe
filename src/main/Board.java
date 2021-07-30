@@ -59,6 +59,9 @@ public class Board {
 		if (fields[0] == fields[4] &&
 			    fields[0] == fields[8]) return fields[4];
 		
+		if (fields[2] == fields[4] &&
+				fields[2] == fields[6]) return fields[4];
+		
 		return ' ';
 	}
 
