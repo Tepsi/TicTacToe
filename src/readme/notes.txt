@@ -23,5 +23,5 @@ NOTES
 	- create checkWinnner function		🛠
 	
 4. Pomodoro
-	- create checkWinnner function		🛠
+	- create checkWinnner function		✔
 	- create a game to run 

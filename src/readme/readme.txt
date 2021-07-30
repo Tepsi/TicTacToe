@@ -48,6 +48,8 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 	- check diagonal \ winner										✔
 	- check diagonal / winner										✔
 	
+	- game should end with a winner or a draw						🛠
+	
 	
 	
 	

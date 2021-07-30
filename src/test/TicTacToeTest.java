@@ -1,6 +1,7 @@
 package test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import java.util.Arrays;
 
@@ -8,6 +9,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import main.Board;
+import main.Game;
 
 class TicTacToeTest {
 
@@ -69,9 +71,17 @@ class TicTacToeTest {
 		assertEquals('O',board.checkWinner(), "O wins in a diagonal \\");
 		board = new Board(new String(" XOXO O X").toCharArray());
 		assertEquals('O',board.checkWinner(), "O wins in a diagonal /");
-
 	}
 
+	@Test
+	@DisplayName("Check game")
+	void testCheckGame() {
+		Game game = new Game();
+		game.run();
+		assertNotEquals(' ',game.getBoard().checkWinner(), "Game shouldn't end in progress");
+	}
+
+	
 	
 	private int countFields(char what, char[] fields) {
 		int cntField = 0;
