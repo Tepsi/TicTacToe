@@ -1,6 +1,8 @@
 package main;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Board {
 	
@@ -17,6 +19,12 @@ public class Board {
 	
 	public char getNextPlayer() {
 		return 'X';
+	}
+	
+	public List<String> display() {
+		ArrayList<String> messages = new ArrayList<>();
+		return messages;
+		
 	}
 
 }

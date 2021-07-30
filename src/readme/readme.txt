@@ -18,6 +18,7 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 	BOARD
 		has	fields
 			nextPlayer
+		can display
 			
 
 - BACKLOG
