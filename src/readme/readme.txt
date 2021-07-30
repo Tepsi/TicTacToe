@@ -19,6 +19,8 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 		has	fields
 			nextPlayer
 		can display
+			mark
+			checkWinner
 			
 
 - BACKLOG

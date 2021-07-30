@@ -14,5 +14,10 @@ NOTES
 	
 2. Pomodoro
 	- display an empty board	✔
-	- create mark function		🛠
+	- create mark function		✔
 	- display board with marks on it
+	
+3. Pomodoro
+	- create checks on 2nd and 3rd mark
+	- display board with marks on it
+	- create checkWinnner function
