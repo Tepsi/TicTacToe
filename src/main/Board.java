@@ -51,6 +51,10 @@ public class Board {
 					fields[row * 3] == fields[row * 3 + 2])
 				return fields[row*3];
 		}
+		for (int column = 0; column < 3; column++) {
+			if (fields[column] == fields[3+column] &&
+			    fields[column] == fields[6+column]) return fields[column];
+		}
 		return ' ';
 	}
 

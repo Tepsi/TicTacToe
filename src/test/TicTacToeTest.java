@@ -65,6 +65,7 @@ class TicTacToeTest {
 		assertEquals('X',board.checkWinner(), "X wins in a horizontal line");
 		board = new Board(new String("XOXXO  O ").toCharArray());
 		assertEquals('O',board.checkWinner(), "O wins in a vertical line");
+
 	}
 
 	
