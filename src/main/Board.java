@@ -44,6 +44,10 @@ public class Board {
 			nextPlayer = 'X';
 		}
 	}
+	
+	public char checkWinner() {
+		return ' ';
+	}
 
 	public List<String> display() {
 		ArrayList<String> messages = new ArrayList<>();

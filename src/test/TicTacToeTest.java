@@ -54,7 +54,13 @@ class TicTacToeTest {
 		assertEquals(
 				Arrays.asList("Player X:", "X|O|X", "-+-+-", "O| | ", "-+-+-", " | | ", ""),
 				board.display(), "Board in progress should be displayed properly");
-		
+	}
+	
+	@Test
+	@DisplayName("Check Winner")
+	void testCheckWinner() {
+		Board board = new Board(new String("XOXO     ").toCharArray());
+		assertEquals(' ',board.checkWinner(), "Board in progress has no winner");
 	}
 
 	

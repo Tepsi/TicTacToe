@@ -19,5 +19,5 @@ NOTES
 	
 3. Pomodoro
 	- create checks on 2nd and 3rd mark	✔
-	- display board with marks on it	🛠
-	- create checkWinnner function
+	- display board with marks on it	✔
+	- create checkWinnner function		🛠

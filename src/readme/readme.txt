@@ -40,7 +40,10 @@ If all the Fields are filled and there's no Winner, the Game is a Draw.
 	- after the first mark the board should have 7 blanks			✔
 	- next player = X												✔
 	
-	- test display													🛠
+	- test display													✔
+	
+	- check horizontal winner	🛠
+	
 					
 	
 	
