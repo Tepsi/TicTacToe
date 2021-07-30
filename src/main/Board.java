@@ -16,6 +16,10 @@ public class Board {
 		nextPlayer = 'X';
 	}
 
+	public Board(char[] fields) {
+		this.fields = fields;
+	}
+
 	public char[] getFields() {
 		return fields;
 	}

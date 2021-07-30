@@ -46,6 +46,16 @@ class TicTacToeTest {
  		assertEquals('X', board.getNextPlayer(), "Next player should be X");
 		
 	}
+	
+	@Test
+	@DisplayName("Check display")
+	void testCheckDisplay() {
+		Board board = new Board(new String("XOXO     ").toCharArray());
+		assertEquals(
+				Arrays.asList("Player X:", "X|O|X", "-+-+-", "O| | ", "-+-+-", " | | ", ""),
+				board.display(), "Board in progress should be displayed properly");
+		
+	}
 
 	
 	private int countFields(char what, char[] fields) {
