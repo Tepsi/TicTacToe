@@ -55,6 +55,10 @@ public class Board {
 			if (fields[column] == fields[3+column] &&
 			    fields[column] == fields[6+column]) return fields[column];
 		}
+		
+		if (fields[0] == fields[4] &&
+			    fields[0] == fields[8]) return fields[4];
+		
 		return ' ';
 	}
 
