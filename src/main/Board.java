@@ -21,7 +21,7 @@ public class Board {
 	}
 
 	public char getNextPlayer() {
-		return 'X';
+		return nextPlayer;
 	}
 
 	public void mark() {
